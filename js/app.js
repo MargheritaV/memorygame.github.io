@@ -189,6 +189,7 @@ function resetAll() {
   endTimer();
   timeContainer.innerHTML = `00:00`;
   timeCounter= 0;
+  shuffle(cardsArray);
   firstClick= true; //the timer will start again with the first click
 }
 
