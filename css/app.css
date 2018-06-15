@@ -151,3 +151,64 @@ Style for the modal PopUp
     float: right;
     cursor: pointer;
 }
+
+/* Responsiveness */
+
+ @media screen and (min-width: 1201px) {
+   body {
+     background: #ffffff url('../img/blurredimg.jpg');
+     background-size: 100% 100%;
+   }
+ }
+
+ @media screen and (min-width: 701px) and (max-width: 1200px) {
+   body {
+     background: #ffffff url('../img/blurredimg.jpg');
+     background-size: 100% 100%;
+   }
+   .deck {
+   width: 680px;
+   min-height: 700px;
+ }
+ .deck .card {
+     height: 135px;
+     width: 135px;
+   }
+ }
+
+
+ @media screen and (min-width: 401px) and (max-width: 700px) {
+   body {
+     background: #ffffff url('../img/blurredimg.jpg');
+     background-size: 100% 100%;
+   }
+   .deck {
+   width: 370px;
+   min-height: 390px;
+ }
+ .deck .card {
+     height: 70px;
+     width: 70px;
+   }
+ }
+
+@media screen and (max-width: 400px){
+  body {
+    background: #ffffff url('../img/blurredimg.jpg');
+    background-size: 100% 100%;
+  }
+  .deck {
+  width: 270px;
+  min-height: 290px;
+}
+.deck .card {
+    height: 50px;
+    width: 50px;
+  }
+.score-panel {
+      text-align: left;
+      width: 305px;
+      margin-bottom: 10px;
+  }
+}
+
