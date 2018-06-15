@@ -8,7 +8,7 @@ The page is styled with Coda Font Family from Google Fonts.
 
 It is usable across modern desktop, tablet, and phone browsers.
 
-##Instructions
+## Instructions
 There are 16 cards (8 pairs) and all of them are laid down and randomly mixed. The aim of the game is to find all pairs of cards by turning over two cards at the time.
 
 ## Feedback
